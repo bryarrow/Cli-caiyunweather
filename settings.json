@@ -1,0 +1,14 @@
+{
+    "token":"r8YbTwl1J76nlGP3",     //请移步dashboard.caiyunapp.com申请token
+
+    "locationmode":"city",//选择位置：定位（locat）、经纬坐标（pos）或行政区（city）；行政区表见
+    "city":["坊子区"],
+
+    "unit":"SI",                    //单位制选择，详见彩云天气api文档
+    "unitexcept":{
+        "precipitation":"metric:v2",
+        "temp":"metric:v2",
+        "pressure":"hPa",
+        "visibility":"metric:v2"
+    }//单位制例外：替换"unit"中选择的单位体系中部分单位，详见
+}
